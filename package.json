@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "build": "babel src --out-dir dist",
     "dev": "nodemon --exec npx babel-node src",
@@ -16,6 +17,7 @@
     "@babel/core": "^7.20.12",
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.33.0",
     "nodemon": "^2.0.20"
   },
   "dependencies": {
